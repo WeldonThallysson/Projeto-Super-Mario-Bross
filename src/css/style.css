@@ -1,0 +1,146 @@
+body {
+    font-family: "Poppins";
+    overflow: hidden;
+}
+
+.Cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 1rem; 
+}
+.logo{
+    width: 15%;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1.25rem;
+
+
+   
+    
+  
+}
+
+.link__menu{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.link__menu:hover{
+       transition: all 0.3s ease-in;
+    background-color: brown;
+      
+
+}
+
+.Fundo__Video::after{
+    content:"";
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.9) 100%);
+    position: absolute;
+    width: 100vw;
+    height: 100vh; 
+    top:0;
+    left: 0;
+ 
+}
+
+.video{
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+ 
+    
+   
+    
+
+}
+
+
+
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: calc(100vh - 92px);
+    padding: 0 30px 30px;
+    
+   
+}
+
+.img__titulo{
+    max-width: 500px;
+}
+
+.desc__mario{
+    color: #a8adb7;
+    width: 80%;
+    font-size: 1rem;
+    margin: 1rem
+}
+
+.btn__trailer{
+    background-color: #ff0021;
+
+    color: white;
+    padding: 1rem;
+    margin-left:1rem ;
+    font-size: .75rem; 
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn__trailer:hover{
+    transform: scale(1.1);
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+}
+
+.aberto{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
+.fechar__modal{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: aliceblue;
+       width:5%;    
+       margin-left: 47.3%;
+       margin-bottom: 2%; 
+       text-align: center; 
+       font-size: 1rem;
+       color: #ff0021;
+       cursor: pointer;
+       border: none;
+       border-radius: 5px;
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+     <link href="./css/reset.css" rel="stylesheet">      
+     <link href="./css/style.css" rel="stylesheet">
+     <link rel="icon" type="image/x-icon" href="./imagens/favicon.ico">
+    
+</head>
+<body>  
+    
+    <div class="Fundo__Video">
+     <video class="video" autoplay loop muted>
+        <source src="./video/video-mario.mp4" type="video/mp4"/>
+     </video>
+    </div>
+    <header class="Cabecalho">
+      
+        <a>
+            <img class="logo" src="./imagens//logo-chapeu-mario.png" alt="logo chapeu mario"/>
+        </a>
+        <nav >
+            <ul class="menu">
+                <li><a class="link__menu">Home</a></li>
+                <li><a class="link__menu">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="Container">
+        <div class="informacoes">
+            <img class="img__titulo" src="./imagens/titulo.png" alt="image-for-titulo"/>
+            <p class="desc__mario">Super Mario Bros o filme conta a historia do famoso encanador mario que está em busca de salvar o reino e resgatar a princesa do seu inimigo o Bowser a tartaruga, passando por inumeras aventuras!</p>
+            <button class="btn__trailer" >Veja o trailer !</button>
+        </div>
+        <img class="mario__chars" src="./imagens/super-mario-chars.png"/>
+
+        <div class="modal "> 
+             <span class="fechar__modal">X</span>
+            <div class="conteudo__modal">  
+                <iframe id="video" width="760" height="415" src="https://www.youtube.com/embed/cDNkh5WybZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </main>
+        <script src="./js/index.js"></script>
+</body>
+</html>
+
+
+  
+  
